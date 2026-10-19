@@ -220,6 +220,15 @@
         transition: border-color 140ms ease, transform 140ms ease;
       }
 
+      .link-card--centered {
+        display: flex;
+        align-items: center;
+      }
+
+      .link-card--centered h3 {
+        margin-bottom: 0;
+      }
+
       .link-card:hover {
         transform: translateY(-2px);
         border-color: #9aafa5;
@@ -335,20 +344,21 @@
           <div class="facts" aria-label="Highlights">
             <span class="fact">5 years in climate strategy</span>
             <span class="fact">42 Paris · Computer science</span>
-            <span class="fact">2nd place · 1,800+ in hackathon</span>
+            <span class="fact">2nd place among 1,800+ in Hackathon</span>
           </div>
         </div>
       </header>
 
       <section class="section" aria-labelledby="project-heading">
         <div class="section-heading">
-          <h2 id="project-heading">A project I built</h2>
-          <p class="section-note">From an everyday problem to a working product.</p>
+          <h2 id="project-heading">Award winning app</h2>
+          <p class="section-note">From an everyday problem to an elegant solution.</p>
         </div>
         <article class="project-card">
           <div>
             <h3>Intercyclette</h3>
             <p>An all-in-one app for planning bike-and-train trips.</p>
+            <p>Placed 2nd among 1,800+ students in an Open Data Hackathon by building it with Claude</p>
           </div>
           <a
             class="text-link"
@@ -359,47 +369,52 @@
         </article>
       </section>
 
-      <section class="section" aria-labelledby="writing-heading">
+      <section class="section" aria-labelledby="newsletter-lead-heading">
         <div class="section-heading">
-          <h2 id="writing-heading">Writing &amp; ideas</h2>
-          <p class="section-note">Climate, technology, and their impact.</p>
+          <h2 id="newsletter-lead-heading">42AI Newsletter lead</h2>
+          <p class="section-note">Coordinate a team of 8 contributors.</p>
         </div>
         <div class="link-grid">
           <a
-            class="link-card"
+            class="link-card link-card--centered"
             href="https://42ai.medium.com/the-turing-point-newsletter-42ai-impact-and-governance-1-cd91db0619bd"
             target="_blank"
             rel="noopener noreferrer"
           >
             <h3>The Turing Point — Newsletter #1</h3>
-            <p>42AI Impact and Governance Hub</p>
           </a>
           <a
-            class="link-card"
+            class="link-card link-card--centered"
             href="https://42ai.medium.com/the-turing-point-newsletter-42ai-impact-and-governance-2-fd72a699387a"
             target="_blank"
             rel="noopener noreferrer"
           >
             <h3>The Turing Point — Newsletter #2</h3>
-            <p>42AI Impact and Governance Hub</p>
           </a>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="writing-heading">
+        <div class="section-heading">
+          <h2 id="writing-heading">Writing &amp; Ideas</h2>
+          <p class="section-note">Raise awareness on social and ecological impacts of AI.</p>
+        </div>
+        <div class="link-grid">
           <a
-            class="link-card"
+            class="link-card link-card--centered"
             href="https://42ai.medium.com/the-carbon-footprint-of-ai-models-6d26089272d1"
             target="_blank"
             rel="noopener noreferrer"
           >
             <h3>The carbon footprint of AI</h3>
-            <p>42AI Impact and Governance Hub</p>
           </a>
           <a
-            class="link-card"
+            class="link-card link-card--centered"
             href="https://42ai.medium.com/the-ai-bubble-has-it-burst-or-not-yet-6bff745cab67"
             target="_blank"
             rel="noopener noreferrer"
           >
             <h3>The AI bubble: has it burst?</h3>
-            <p>42AI Impact and Governance Hub</p>
           </a>
         </div>
       </section>
